@@ -1,4 +1,5 @@
 body {
+  text-align: center;
   background-color: rgba(137, 43, 226, 0.281);
 }
 button {
@@ -6,15 +7,19 @@ button {
   margin-bottom: 1rem;
 }
 
+ul {
+  padding-left: 0px;
+}
+
 li {
-  margin-left: 50rem;
+  max-width: 100%;
   font-size: 25px;
   font-weight: lighter;
 }
 
 .input {
-  margin-left: 50rem;
   max-height: 100%;
+  max-width: 100%;
   border-radius: 15px;
 }
 .Completato {
