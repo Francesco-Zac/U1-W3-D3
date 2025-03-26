@@ -22,10 +22,3 @@ function segnaComeCompletato(e) {
 }
 
 document.querySelector("ul").addEventListener("click", segnaComeCompletato);
-
-function eliminaElemento(e) {
-  let elementoDaEliminare = e.target;
-  elementoDaEliminare.remove();
-}
-
-document.querySelectorAll("button")[1].addEventListener("click", eliminaElemento);
