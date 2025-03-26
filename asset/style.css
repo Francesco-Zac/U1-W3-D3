@@ -1,0 +1,23 @@
+body {
+  background-color: rgba(137, 43, 226, 0.281);
+}
+button {
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-left: 50rem;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.input {
+  margin-left: 50rem;
+  max-height: 100%;
+  border-radius: 15px;
+}
+.Completato {
+  text-decoration: line-through;
+  color: red;
+}
